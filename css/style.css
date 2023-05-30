@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2? family= Roboto:ital,wght@0,400;0,500;0,700;1,300;1,400;1,700 & display=swap");
+@import url("https://fonts.googleapis.com/css2? family= Poppins:ital,wght@0,400;0,500;0,600;1,300;1,400;1,500;1,600 & family= Roboto:ital,wght@ 0,400;0,500;0,700;1,300;1,400;1,700 & display=swap");
+:root {
+  --color-primary:#232321;
+  --color-secundary:#FC5830;
+  --color-tertiary:#FFFFFF;
+  --color-quartenary:#D2D2D2E3;
+  --color-title:#585858;
+  --color-botton:#000000;
+  --font-primary:font-family: "Roboto", sans-serif;
+  --font-secundary:font-family: "Poppins", sem serifa;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-primary);
+  text-decoration: none;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+body {
+  background-color: var(--color-primary);
+  width: 100%;
+  height: auto;
+}
+
+header {
+  width: 100%;
+  height: auto;
+}
+
+header .navbar {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header .navbar ul {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .logo {
+  color: var(--color-secundary);
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.navbar ul li {
+  margin: 0 30px;
+}
+
+.navbar ul li a {
+  padding: 10px;
+  color: var(--color-secundary);
+  font-size: 0.77rem;
+  font-weight: 700;
+}/*# sourceMappingURL=style.css.map */
